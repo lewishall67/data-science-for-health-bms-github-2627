@@ -7,6 +7,10 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+install.packages("tidyverse")
+install.packages("here")
+library(tidyverse)
+library(here)
 ```
 
 You will need to load the required libraries first: `tidyverse` and `here`. Install `here` if you haven't done that already.
@@ -26,6 +30,7 @@ In RStudio, go to File → New Project…
 Once you’ve done this, store your `3_tidy_tbi.Rmd` file inside the project folder (not in some unrelated Downloads folder!) so that `here()` can find your data and other files easily.
 
 ```{r libraries}
+#jgjgjffuru
 # install.packages("here") # Remove the hashtag and run just once. Once installed in your laptop, you won't need to install it ever again.
 library(tidyverse)
 library(here)
